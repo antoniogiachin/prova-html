@@ -44,20 +44,22 @@
     <a href="https://www.google.it" draggable="true">Vai a Google</a>
     <a href="https://www.google.it" target="blank">Vai a Google</a> <!-- blank apre il link in una nuova pagina -->
 
+    <hr>
+
     <!-- Inizio Tabella-->
 
     <table>
         
         <thead>
             <tr>
-                <th>
+                <th> <!-- th formatta in grassetto-->
                     Nome
                 </th>
                 <th>
                     Cognome
                 </th>
                 <th>
-                    Età
+                    Et&agrave; <!-- sarebbe la a accentata, alcuni browser non leggono bene quindi caratteri speciali-->
                 </th>
             </tr>
             
@@ -65,11 +67,11 @@
 
         <tbody>
             <tr>
-                <td>
-                    Mario
+                <td> <!-- td non è grassetto, th e td sono tag semantici th intestazione, mentre td no, ma sono solo semantici-->
+                    Mario &nbsp; Giacomo <!-- nbsp indica che lo spazio non è interrompibile, tra l'altro se ne metto due come sotto lo spazio è doppio-->
                 </td>
                 <td>
-                    Rossi
+                    Rossi &nbsp; &nbsp; Tolli
                 </td>
                 <td>
                     40
@@ -97,7 +99,7 @@
             </tr>
         </tfoot>
     </table>
-    
+
     <!-- Fine Tabella-->
 
 
